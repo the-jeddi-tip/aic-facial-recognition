@@ -26,4 +26,10 @@
         android:src="@android:drawable/ic_menu_camera"
         app:backgroundTint="@android:color/holo_purple" />
 
+    <ImageView
+        android:id="@+id/cropped_face_image_view"    android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </FrameLayout>
